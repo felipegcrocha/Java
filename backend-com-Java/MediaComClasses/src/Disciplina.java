@@ -36,7 +36,6 @@ public class Disciplina {
 
     public double calcularMedia() {
         double media = this.somaDasNotas / 4;
-        System.out.printf("Sua média é: %.2f.%n", media);
 
         return media;
     }
@@ -44,6 +43,7 @@ public class Disciplina {
     public boolean validarAprovacao() {
         double media = this.calcularMedia();
 
+        System.out.printf("Sua média é: %.2f.%n", media);
         if (media >= 7) {
             System.out.printf("Resultado em %s: APROVADO! %n", this.nomeDaMateria);
             System.out.println("-------------------------------------");
