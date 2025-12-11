@@ -14,7 +14,7 @@ public class MediaModularizada {
             String materiaAtual = materias[i];
             System.out.println("Calculando a nota de " + materiaAtual);
 
-            double soma = pedirNotaValida (input);
+            double soma = pedirNotaValida(input);
 
             double media = soma / 4;
             mediaGeral = mediaGeral + media;
